@@ -10,7 +10,7 @@ servers:
     port:
       default: "9090"
 paths:
-  /:
+  /greeting:
     get:
       summary: A resource for generating greetings
       operationId: getGreeting
